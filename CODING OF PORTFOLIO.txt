@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html>
+ <head>
+    <title> Assignment 1 </title>
+    <link rel="Stylesheet" href="U1 A2.css"/>
+    <style>
+      .navbar { font-family: Poppins;
+                width: 100%;
+                font-weight: bold;
+                background-color: #111111;
+                overflow: hidden;
+                display: inline-block; }
+
+      .navbar a { float: center;
+          color: #FFFFFF;
+          text-align: center;
+          padding-left: 42px;
+          padding-right: 42px;
+          text-decoration: none;
+          font-size: 30px;
+          background-color: #290125;
+          border-radius: 50px; }
+
+      .navbar a:hover { background-color: white;
+                  color: #111111; }
+
+.navbar a.active { color: purple; }
+    </style>
+ </head>
+
+  <body class="body">
+
+   <div class="navbar">
+      <a href="#Projects"> Projects </a>
+      <a href="#About"> About </a>
+      <a href="#Skills"> Skills </a>
+      <a href="#Work experience"> Work/Workexperience </a>
+      <a href="#DownloadCV"> Download CV </a>
+      <a href="#Contact"> Contact </a>
+    </div>
+ </head>
+
+  <body class="body">
+
+    <div>
+       <h1 class="mainheading"> <center>Portfolio - Pranati.s </center> </h1>
+       <p1 class="paragraphs"> <span style="font-size: 25px;"> <center> <b>Welcome</b> to my portfolio ! </center> </p1>
+    </div>
+   
+    
+    <hr>
+ 
+    <div>
+     <center>
+        <h2 class="subheadings" id=""> My projects</h2>
+
+        <img class="images" src="C:\Users\prana\Downloads\photo-1503341733017-1901578f9f1e.jpg" alt="T shirt" >
+     
+        <img class="images" src="C:\Users\prana\Downloads\Graphics-Design.jpg" alt="illustration 1" >
+		<img class="images" src="C:\Users\prana\Downloads\large_21f3a7722648e9ed1718686cb95b617a.jpg" alt="Book design">
+
+    
+      
+       
+        <a href="https://99designs.com/blog/creative-inspiration/poster-design-ideas/">
+        <img class="images" src="C:\Users\prana\Downloads\EyyFHlPXAAAgu8m.jpg" alt="Illustration 2" > 
+		</a>
+     </center> 
+   </div>
+
+    <hr>
+    
+   <div class="About">
+     
+     <center>
+       <h3 class="subheadings"> About me </h3>
+        <img src="C:\Users\prana\Downloads\pngegg (1).png" style="height:350px; width:350px;">
+      
+        <p>
+          Howdyy!  Pranati here <br> I love experimenting with colors hence i became a graphic designer! Today, I am open to all kinds of design work- posters,flyers,book covers,T shirt prints ,magazine design.. you name it !<br>
+When I'm not working on my latest graphic design project, I might be doing community service, cuddling with my dog or on a hike. I am fully invested in my community and would love to work with a brand that shares these values.
+If you like my work, please reach out to me on any of social medias , preferably gmail. I can't wait to learn about your brand's design needs!
+        </p>
+      </center>
+   </div>
+
+   <hr>
+
+   <div>
+     <center>
+       <h4 class="subheadings"> Skills </h4>
+       <img class="logos" src="C:\Users\prana\Downloads\pngegg (2).png" >
+       <img class="logos" src="C:\Users\prana\Downloads\pngegg (3).png" >
+     </center>
+   </div>
+
+   <hr>
+
+   <div class="Workexperience">
+     <center>
+        <h5> <span class="subheadings" > My Experience </span> </h5>
+     </center> 
+      <ol type="1"> 
+        <li> Graphic designer and content creator for DDI </li>
+        <li> Intern at spin the tail </li>
+        <li> Collaborated with dystopia </li>
+      </ol>
+   </div>
+    
+    <hr>
+
+    <div class="resume">
+      <center>
+        <h6 class="subheadings"> Download CV </h6>
+        <a href="C:\Users\prana\Downloads\my cv.pdf" download="Resume">
+        <p> Click to dowload resume </p>
+        </a>
+      </center>
+    </div>
+
+     <hr>
+
+   
+  <div class="Contact">
+      <center>
+        <h6> <span class="subheadings"> Contact me </span> </h6>
+
+        <a href="mailto:pranatis131@gmail.com">
+        <img class="logos" src="C:\Users\prana\Downloads\pngkey.com-top-arrow-png-2558184.png" alt="Gmail" style="height:100px; width:180px";>
+		
+		<img class="logos" src="C:\Users\prana\Downloads\pngkey.com-instagram-logo-png-695436.png" alt="Instagram" >
+		<img class="logos" src="C:\Users\prana\Downloads\pngkey.com-whatsapp-png-37666.png" alt="Whatsapp" >
+     </center>
+   </div>
+ </body>
+</html> 
+
+
+CSS PART
+
+
+.mainheading {font-family:Poppins; font-size: 70px; font-weight: bold; color: #FFFFFF;}
+
+.paragraphs {font-family: Tw cen MT; font-size: 15px; font-weight: normal; color: #FFFFFF; padding: 250px;}
+
+.subheadings { font-family: Poppins; font-size: 50px; font-weight: semi-bold; color: ghostwhite; text-shadow: black 0px 10px 10px; }
+
+.About { font-family: Tw cen MT; font-size: 30px; font-weight: normal; color: ghostwhite;  }
+
+.Skills { font-family: Tw cen MT; font-size: 30px; font-weight: normal; color: ghostwhite; }	
+
+.Workexperience { font-family: Tw cen MT; font-size: 25px; font-weight: normal; color: ghostwhite; }
+
+.resume { font-family: Tw cen MT; font-size: 25px; font-weight: bold; color: ghostwhite; }
+
+.body { background-color: #A52078; }
+
+.images { height: 300px; width: 500px; padding-right: 30px; padding-bottom: 30px; }
+
+.logos { height: 100px; width: 100px; padding: 50px; }
+
+.navbar {
+ 		font-family: poppins; background-color: #111111; overflow: hidden; display: inline-block;
+ 	}
+
+
+.navbar a {
+	float: left; color: ghostwhite; text-align: center; background-color: purple;
+}
